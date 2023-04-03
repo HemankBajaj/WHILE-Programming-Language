@@ -1,0 +1,11 @@
+program good2::
+    var A, B, C: int;
+    var C , D , E: bool ;
+{
+    A := 2;
+    B := 1;
+    if (A > B) then {C := 5;} else 
+    {C := 7;}
+    endif;
+    write C;
+}
